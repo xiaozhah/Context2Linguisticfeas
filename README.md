@@ -20,7 +20,7 @@
 
 ## [Perl代码](https://github.com/xiaozhah/Context2Linguisticfeas/blob/master/predict.pl)
 
-## [C++代码(Mac上编译成功)](https://github.com/xiaozhah/Context2Linguisticfeas/tree/master/predict_C%2B%2B)
+## [C++代码(OSX的Xcode版本)](https://github.com/xiaozhah/Context2Linguisticfeas/tree/master/predict_C%2B%2B)
 需要准备fullab文件夹，question.hed，filelist.lst
 
 在Windows上编译需要在头文件中引入`#include <direct.h>`并且`mkdir(dir, 0777);`改为`_mkdir(dir);`
