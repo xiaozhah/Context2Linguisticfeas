@@ -47,7 +47,7 @@ sub Get_Ques2Regular
         $phoneone =~ s/\|/\\\|/g;    #(|->\|)
         $phoneone =~ s/\^/\\\^/g;    #(^->\^)
         $phoneone =~ s/^([a-z])/\^$1/; # such as m-* -> ^m-*
-        $phoneone =~ s/([^*])$/$1\$/; # such as m-* -> ^m-*
+        $phoneone =~ s/([^*])$/$1\$/; # such as *m -> *m$
         $phoneone = qr/$phoneone/i; # Compile regex pattern
         $Ques2Regular{$original_phoneone} = $phoneone unless exists $Ques2Regular{$original_phoneone};
       }
