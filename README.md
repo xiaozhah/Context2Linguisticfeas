@@ -13,7 +13,8 @@
 5. 重新生成和修改了C++代码，使用了编译的正则表达式，但是速度依然不及Python
 6. 准备将C++工程拷贝到VS2017，这样可以查看哪里画的时间较多针对性优化
 
-<!-- more -->
+
+这个例子中生成的二进制文件用float32存储，每个*.dat文件存储的是N*1246形状的01矩阵。其中1246是属性问题集合中问题的个数
 
 ## [Python代码](https://github.com/xiaozhah/Context2Linguisticfeas/blob/master/predict.py)
 
