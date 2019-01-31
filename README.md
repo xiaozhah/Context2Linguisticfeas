@@ -9,7 +9,7 @@
 2. 在Yanping13K（新旧前端,以及更新的913维前端）,BC18三个音库上Python与Perl与C++l答案一样
 3. 原来perl代码判断空行是`if ( $line_question eq "\n" )`,但是在Mac上执行的话，即使是空行这个判断也为假，猜测是Mac的换行是"\r\n"，因此改为了`if ( $line_question =~ /^\s*$/ )`,即判断空白字符串的正则。C++也考虑到了`\r\n`。
 
-4. python readlines()读出来的含有换行符要去掉，python是line.rstrip(),perl是$line =~ s/\s+$//,C++是line[strcspn(line,"\r\n")] = 0;
+4. python readlines()读出来的含有换行符要去掉，python是`line=line.rstrip()`,perl是`$line =~ s/\s+$//`,C++是`line[strcspn(line,"\r\n")] = 0;`
 5. 重新生成和修改了C++代码，使用了编译的正则表达式，但是速度依然不及Python
 6. 准备将C++工程拷贝到VS2017，这样可以查看哪里画的时间较多针对性优化
 
