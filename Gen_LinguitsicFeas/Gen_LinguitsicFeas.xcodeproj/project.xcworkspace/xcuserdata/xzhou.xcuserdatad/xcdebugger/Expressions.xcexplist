@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LoadQues(char*, QUES_INFO*):function.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "std::__1::regex_traits&lt;char&gt;::operator=(std::__1::regex_traits&lt;char&gt;&amp;&amp;):regex">
+      </ContextState>
+      <ContextState
+         contextName = "AnswerQues(float**, char**, QUES_INFO*, int, int):function.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sz_FullLab_Str[i]">
+            </PersistentString>
+            <PersistentString
+               value = "Label_Num">
+            </PersistentString>
+            <PersistentString
+               value = "Ques_Infoo[j].OneQues_Num">
+            </PersistentString>
+            <PersistentString
+               value = "Answer_Data[0][1]">
+            </PersistentString>
+            <PersistentString
+               value = "Ques_Infoo[j].Ques_Str[k]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "fullab_str[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
