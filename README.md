@@ -68,7 +68,10 @@ Program ended with exit code: 0
 
 ### 新版 更快更省内存 使用编译的正则
 可在Mac直接编译但是在Windows的VS不行原因是缺少regex.h库
-~~据说下载[这里](http://gnuwin32.sourceforge.net/packages/regex.htm)的二进制包就行但是没找到办法~~后来在[GnuWin](https://sourceforge.net/projects/gnuwin32/files/regex/2.7/regex-2.7-bin.zip/download)下载到
+~~据说下载[这里](http://gnuwin32.sourceforge.net/packages/regex.htm)的二进制包就行但是没找到办法~~
+
+后来在[GnuWin](https://sourceforge.net/projects/gnuwin32/files/regex/2.7/regex-2.7-bin.zip/download)下载，但是只提供了32位的库文件，对于现在一般64位的工程来说太不合适了
+
 ```C++
 #include <iostream>
 #include <regex>
