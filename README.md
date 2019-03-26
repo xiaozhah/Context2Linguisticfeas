@@ -28,7 +28,7 @@
 可以在[GnuWin](https://sourceforge.net/projects/gnuwin32/files/regex/2.7/regex-2.7-bin.zip/download)下载到
 
 ## C++属性问题集使用正则
-### [predict_C++_regex_slow 旧版](https://github.com/xiaozhah/Context2Linguisticfeas/tree/master/predict_C%2B%2B/predict_C%2B%2B_regex_slow)
+### [旧版 predict_C++_regex_slow](https://github.com/xiaozhah/Context2Linguisticfeas/tree/master/predict_C%2B%2B/predict_C%2B%2B_regex_slow)
 ```C++
 #include <iostream>
 #include <regex>
@@ -66,11 +66,11 @@ int main() {
 1
 Program ended with exit code: 0
 
-### [新版,predict_C++_regexh](https://github.com/xiaozhah/Context2Linguisticfeas/tree/master/predict_C%2B%2B/predict_C%2B%2B_regexh) 更快更省内存 使用编译的正则
+### [新版 predict_C++_regexh](https://github.com/xiaozhah/Context2Linguisticfeas/tree/master/predict_C%2B%2B/predict_C%2B%2B_regexh) 更快更省内存 使用编译的正则
 可在Mac直接编译但是在Windows的VS不行原因是缺少regex.h库
 ~~据说下载[这里](http://gnuwin32.sourceforge.net/packages/regex.htm)的二进制包就行但是没找到办法~~
 
-后来在[GnuWin](https://sourceforge.net/projects/gnuwin32/files/regex/2.7/regex-2.7-bin.zip/download)下载，但是只提供了32位的库文件，对于现在一般64位的工程来说太不合适了
+后来在[GnuWin](https://sourceforge.net/projects/gnuwin32/files/regex/2.7/regex-2.7-bin.zip/download)下载，但是只提供了**32位**的库文件，对于现在一般64位的工程来说太不合适了
 
 ```C++
 #include <iostream>
